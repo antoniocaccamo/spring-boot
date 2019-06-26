@@ -1,2 +1,7 @@
-﻿**/target
+**/target
 **/*.iml
+**/*.log
+**/*.log
+**/*.classpath
+**/*.factorypath
+**/*.project

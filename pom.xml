@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.antoniocaccamo</groupId>
-	<artifactId>springboot</artifactId>
+	<artifactId>springboot-proof</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>me : antoniocaccamo: springboot : command-line-runner-jpa</name>
+	<name>me : antoniocaccamo: springboot-proof</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

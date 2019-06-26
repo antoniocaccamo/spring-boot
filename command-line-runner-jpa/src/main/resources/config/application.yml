@@ -1,6 +1,6 @@
 spring:
   datasource:
-      jdbc-url: jdbc:postgresql://localhost:55432/digital-signage
+      jdbc-url: jdbc:postgresql://localhost:5432/digital-signage
       username: postgres
       password: docker
 #      driver-class-name : org.postgresql.Driver
@@ -27,8 +27,9 @@ spring:
     password  : ${spring.datasource.password}
 
 # Enable logging
-#logging:
-#  level:
-#    root : DEBUG
-#    org.hibernate.SQL: WARN
-#    com.zaxxer.hikari.HikariConfig: WARN
+logging:
+  file: ${user.home}/.antoniocaccamo/springboot/logs/clr-jpa.log
+  level:
+    root : INFO
+    org.hibernate.SQL: WARN
+    com.zaxxer.hikari: WARN
